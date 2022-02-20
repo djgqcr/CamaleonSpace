@@ -38,10 +38,21 @@
 
   .logotype {
     display: flex;
-    color: var(--primary-color);
+    
     font-size: 20px;
     font-family: 'Lexend', sans-serif;
     align-items: center;
+  }
+  
+  .logotype a{
+    color: var(--primary-color);
+  }
+
+  .logotype a:hover{
+    color: var(--secundary-color);
+
+    opacity: 50;
+    transition: opacity 0.3s;
   }
 
 
@@ -60,7 +71,7 @@
 .menu a {
   color: var(--text-color);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 50px;
   text-transform: uppercase;
   position: relative;
@@ -85,6 +96,7 @@
 
 .menu a:hover {
   color: var(--primary-color);
+  font-weight: 400;
 }
 
 .open-menu,

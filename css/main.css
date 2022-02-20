@@ -20,7 +20,7 @@ body {
 }
 
 main{
-  max-width: 1400px;
+  max-width: auto;
   margin: 0 auto;
   
 }
